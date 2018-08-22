@@ -4,5 +4,6 @@ RUN apk --update --progress --no-cache --repository http://dl-cdn.alpinelinux.or
     php7-xmlwriter \
     php7-mysqli \
     php7-gd \
-    && composer global require phpstan/phpstan-phpunit
+    && composer global require phpstan/phpstan-phpunit \
+    && composer global require phpunit/phpunit
 ENTRYPOINT []
