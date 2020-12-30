@@ -1,4 +1,4 @@
-FROM mrze/swc-docker:php7
+FROM mrze/swc-docker:php8
 
 ENV COMPOSER_HOME /composer
 ENV COMPOSER_ALLOW_SUPERUSER 1
