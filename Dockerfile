@@ -1,3 +1,4 @@
+# docker build --pull -t mrze/phpstan-swc:latest . && docker push mrze/phpstan-swc:latest
 FROM mrze/swc-docker:php7
 
 ENV COMPOSER_HOME /composer
