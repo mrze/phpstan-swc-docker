@@ -1,3 +1,5 @@
+# docker build --pull -t mrze/phpstan-swc . && docker push mrze/phpstan-swc
+
 FROM mrze/swc-docker:php8
 
 ENV COMPOSER_HOME /composer
